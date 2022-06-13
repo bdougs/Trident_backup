@@ -6,7 +6,7 @@ enable_debug_logging = False
 [file_manager]
 config_path = ~/klipper_config
 queue_gcode_uploads = False
-enable_object_processing = False
+enable_object_processing = True
 
 [authorization]
 cors_domains = 
