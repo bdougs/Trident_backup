@@ -35,6 +35,7 @@ path = ~/mainsail
 [power printer]
 type = gpio
 pin = gpiochip0/gpio4
+off_when_shutdown = true
 restart_klipper_when_powered = true
 restart_delay = 3
 initial_state = off
@@ -46,4 +47,10 @@ type = git_repo
 path = /home/pi/klipper_z_calibration
 origin = https://github.com/protoloft/klipper_z_calibration.git
 install_script = install.sh
+
+[update_manager led_effect]
+type = git_repo
+path = ~/klipper-led_effect
+origin = https://github.com/julianschill/klipper-led_effect.git
+is_system_service = False
 
