@@ -47,6 +47,7 @@ type = git_repo
 path = /home/pi/klipper_z_calibration
 origin = https://github.com/protoloft/klipper_z_calibration.git
 install_script = install.sh
+is_system_service = False
 
 [update_manager led_effect]
 type = git_repo
