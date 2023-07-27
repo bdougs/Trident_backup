@@ -35,7 +35,6 @@ path = ~/mainsail
 [power printer]
 type = gpio
 pin = gpiochip0/gpio4
-off_when_shutdown = true
 restart_klipper_when_powered = true
 restart_delay = 3
 initial_state = off
