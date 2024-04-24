@@ -34,7 +34,7 @@ https://github.com/VoronDesign/Voron-Hardware/blob/master/Klipper_Expander/Docum
 
 autoupdate firmware command
 
-***disable "off_when_shutdown: True" in moonraker.cfg prior to running updates***
+***disable "off_when_shutdown: True" in moonraker.conf prior to running updates***
 ~~~~~~~~~~~~~~~~~~~~~
 cd ~/klipper
 sudo bash update-all.sh
