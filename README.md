@@ -14,6 +14,7 @@ https://docs.vorondesign.com/build/software/octopus_klipper.html
 Toolhead
 https://github.com/bigtreetech/EBB/tree/master/EBB%20CAN%20V1.0%20(STM32F072)
 https://github.com/maz0r/klipper_canbus/blob/main/toolhead/ebb36-42_v1.0.md
+https://canbus.esoterical.online/Updating.html
 	
 	EBB36 
 	STM32F072
